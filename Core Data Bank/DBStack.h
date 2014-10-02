@@ -10,6 +10,7 @@
 
 @interface DBStack : NSObject
 
++ (DBStack *)sharedInstance;
 @property (nonatomic, strong, readonly) NSManagedObjectContext *managedObjectContext;
 
 @end

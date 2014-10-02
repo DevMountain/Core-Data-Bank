@@ -1,5 +1,5 @@
 //
-//  DBMemberViewController.h
+//  ListViewController.h
 //  Core Data Bank
 //
 //  Created by Joshua Howland on 6/12/14.
@@ -8,10 +8,10 @@
 
 #import <UIKit/UIKit.h>
 
-@class Member;
+@class Parent;
 
-@interface DBMemberViewController : UIViewController
+@interface ListViewController : UIViewController
 
-@property (nonatomic, strong) Member *member;
+@property (nonatomic, strong) Parent *parent;
 
 @end

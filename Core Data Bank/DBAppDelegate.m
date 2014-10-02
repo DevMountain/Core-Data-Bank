@@ -7,22 +7,18 @@
 //
 
 #import "DBAppDelegate.h"
-#import "DBMemberViewController.h"
+#import "ListViewController.h"
 
-#import "MemberController.h"
+#import "DBStack.h"
+#import "ParentController.h"
 
 @implementation DBAppDelegate
 
-- (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
-{
-    
-    self.stack = [DBStack new];
+- (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     
-    DBMemberViewController *memberViewController = [DBMemberViewController new];
-    memberViewController.member = [[MemberController sharedInstance] rootMember];
-    
+    ListViewController *memberViewController = [ListViewController new];
     self.window.rootViewController = [[UINavigationController alloc] initWithRootViewController:memberViewController];
     
     // Override point for customization after application launch.
@@ -33,7 +29,7 @@
 
 - (void)applicationDidEnterBackground:(UIApplication *)application
 {
-    [self.stack.managedObjectContext save:NULL];
+    [[DBStack sharedInstance].managedObjectContext save:NULL];
 }
 
 @end

@@ -8,11 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
-#import "DBStack.h"
-
 @interface DBAppDelegate : UIResponder <UIApplicationDelegate>
 
 @property (strong, nonatomic) UIWindow *window;
-@property (nonatomic, strong) DBStack *stack;
 
 @end

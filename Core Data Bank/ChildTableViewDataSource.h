@@ -1,5 +1,5 @@
 //
-//  DBMemberTableViewDataSource.h
+//  ChildTableViewDataSource.h
 //  Core Data Bank
 //
 //  Created by Joshua Howland on 6/12/14.
@@ -8,15 +8,14 @@
 
 #import <Foundation/Foundation.h>
 
-@class Member;
+@class Parent, Child;
 
-@interface DBMemberTableViewDataSource : NSObject <UITableViewDataSource>
+@interface ChildTableViewDataSource : NSObject <UITableViewDataSource>
 
-@property (nonatomic, strong) Member *member;
+@property (nonatomic, strong) Parent *parent;
 
 - (void)registerTableView:(UITableView *)tableView;
-
-- (Member *)childAtIndex:(NSIndexPath *)indexPath;
+- (Child *)childAtIndex:(NSIndexPath *)indexPath;
 
 @end
 

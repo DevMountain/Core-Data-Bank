@@ -22,12 +22,14 @@
 		715810E81949FD89006ECE83 /* DBStack.m in Sources */ = {isa = PBXBuildFile; fileRef = 715810E71949FD89006ECE83 /* DBStack.m */; };
 		715810EA1949FDE9006ECE83 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 715810E91949FDE9006ECE83 /* CoreData.framework */; };
 		715810ED1949FF1B006ECE83 /* CoreDataBank.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 715810EB1949FF1B006ECE83 /* CoreDataBank.xcdatamodeld */; };
-		715810F0194A0205006ECE83 /* Member.m in Sources */ = {isa = PBXBuildFile; fileRef = 715810EF194A0205006ECE83 /* Member.m */; };
-		715810F3194A17E2006ECE83 /* MemberController.m in Sources */ = {isa = PBXBuildFile; fileRef = 715810F2194A17E2006ECE83 /* MemberController.m */; };
-		715810F6194A2326006ECE83 /* DBMemberViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 715810F5194A2326006ECE83 /* DBMemberViewController.m */; };
-		715810F9194A233E006ECE83 /* DBMemberTableViewDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 715810F8194A233E006ECE83 /* DBMemberTableViewDataSource.m */; };
-		71581100194A2768006ECE83 /* DBMemberAddViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 715810FE194A2768006ECE83 /* DBMemberAddViewController.m */; };
-		71581101194A2768006ECE83 /* DBMemberAddViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 715810FF194A2768006ECE83 /* DBMemberAddViewController.xib */; };
+		715810F3194A17E2006ECE83 /* ParentController.m in Sources */ = {isa = PBXBuildFile; fileRef = 715810F2194A17E2006ECE83 /* ParentController.m */; };
+		715810F6194A2326006ECE83 /* ListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 715810F5194A2326006ECE83 /* ListViewController.m */; };
+		715810F9194A233E006ECE83 /* ParentTableViewDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 715810F8194A233E006ECE83 /* ParentTableViewDataSource.m */; };
+		71581100194A2768006ECE83 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 715810FE194A2768006ECE83 /* DetailViewController.m */; };
+		71581101194A2768006ECE83 /* DetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 715810FF194A2768006ECE83 /* DetailViewController.xib */; };
+		715A71F919DDB77D00895248 /* Parent.m in Sources */ = {isa = PBXBuildFile; fileRef = 715A71F819DDB77D00895248 /* Parent.m */; };
+		715A71FC19DDB77D00895248 /* Child.m in Sources */ = {isa = PBXBuildFile; fileRef = 715A71FB19DDB77D00895248 /* Child.m */; };
+		715A720019DDBEB100895248 /* ChildTableViewDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 715A71FF19DDBEB100895248 /* ChildTableViewDataSource.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,17 +63,21 @@
 		715810E71949FD89006ECE83 /* DBStack.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DBStack.m; sourceTree = "<group>"; };
 		715810E91949FDE9006ECE83 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		715810EC1949FF1B006ECE83 /* CoreDataBank.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CoreDataBank.xcdatamodel; sourceTree = "<group>"; };
-		715810EE194A0205006ECE83 /* Member.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Member.h; sourceTree = "<group>"; };
-		715810EF194A0205006ECE83 /* Member.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Member.m; sourceTree = "<group>"; };
-		715810F1194A17E2006ECE83 /* MemberController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MemberController.h; sourceTree = "<group>"; };
-		715810F2194A17E2006ECE83 /* MemberController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MemberController.m; sourceTree = "<group>"; };
-		715810F4194A2326006ECE83 /* DBMemberViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DBMemberViewController.h; sourceTree = "<group>"; };
-		715810F5194A2326006ECE83 /* DBMemberViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DBMemberViewController.m; sourceTree = "<group>"; };
-		715810F7194A233E006ECE83 /* DBMemberTableViewDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DBMemberTableViewDataSource.h; sourceTree = "<group>"; };
-		715810F8194A233E006ECE83 /* DBMemberTableViewDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DBMemberTableViewDataSource.m; sourceTree = "<group>"; };
-		715810FD194A2768006ECE83 /* DBMemberAddViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DBMemberAddViewController.h; sourceTree = "<group>"; };
-		715810FE194A2768006ECE83 /* DBMemberAddViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DBMemberAddViewController.m; sourceTree = "<group>"; };
-		715810FF194A2768006ECE83 /* DBMemberAddViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DBMemberAddViewController.xib; sourceTree = "<group>"; };
+		715810F1194A17E2006ECE83 /* ParentController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ParentController.h; sourceTree = "<group>"; };
+		715810F2194A17E2006ECE83 /* ParentController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ParentController.m; sourceTree = "<group>"; };
+		715810F4194A2326006ECE83 /* ListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ListViewController.h; sourceTree = "<group>"; };
+		715810F5194A2326006ECE83 /* ListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ListViewController.m; sourceTree = "<group>"; };
+		715810F7194A233E006ECE83 /* ParentTableViewDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ParentTableViewDataSource.h; sourceTree = "<group>"; };
+		715810F8194A233E006ECE83 /* ParentTableViewDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ParentTableViewDataSource.m; sourceTree = "<group>"; };
+		715810FD194A2768006ECE83 /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		715810FE194A2768006ECE83 /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		715810FF194A2768006ECE83 /* DetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DetailViewController.xib; sourceTree = "<group>"; };
+		715A71F719DDB77D00895248 /* Parent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Parent.h; sourceTree = "<group>"; };
+		715A71F819DDB77D00895248 /* Parent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Parent.m; sourceTree = "<group>"; };
+		715A71FA19DDB77D00895248 /* Child.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Child.h; sourceTree = "<group>"; };
+		715A71FB19DDB77D00895248 /* Child.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Child.m; sourceTree = "<group>"; };
+		715A71FE19DDBEB100895248 /* ChildTableViewDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChildTableViewDataSource.h; sourceTree = "<group>"; };
+		715A71FF19DDBEB100895248 /* ChildTableViewDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChildTableViewDataSource.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -135,20 +141,16 @@
 			children = (
 				715810C61949FD71006ECE83 /* DBAppDelegate.h */,
 				715810C71949FD71006ECE83 /* DBAppDelegate.m */,
-				715810EB1949FF1B006ECE83 /* CoreDataBank.xcdatamodeld */,
-				715810EE194A0205006ECE83 /* Member.h */,
-				715810EF194A0205006ECE83 /* Member.m */,
-				715810E61949FD89006ECE83 /* DBStack.h */,
-				715810E71949FD89006ECE83 /* DBStack.m */,
-				715810F1194A17E2006ECE83 /* MemberController.h */,
-				715810F2194A17E2006ECE83 /* MemberController.m */,
-				715810F4194A2326006ECE83 /* DBMemberViewController.h */,
-				715810F5194A2326006ECE83 /* DBMemberViewController.m */,
-				715810F7194A233E006ECE83 /* DBMemberTableViewDataSource.h */,
-				715810F8194A233E006ECE83 /* DBMemberTableViewDataSource.m */,
-				715810FD194A2768006ECE83 /* DBMemberAddViewController.h */,
-				715810FE194A2768006ECE83 /* DBMemberAddViewController.m */,
-				715810FF194A2768006ECE83 /* DBMemberAddViewController.xib */,
+				715A71FD19DDBDD400895248 /* Model */,
+				715810F4194A2326006ECE83 /* ListViewController.h */,
+				715810F5194A2326006ECE83 /* ListViewController.m */,
+				715810F7194A233E006ECE83 /* ParentTableViewDataSource.h */,
+				715810F8194A233E006ECE83 /* ParentTableViewDataSource.m */,
+				715A71FE19DDBEB100895248 /* ChildTableViewDataSource.h */,
+				715A71FF19DDBEB100895248 /* ChildTableViewDataSource.m */,
+				715810FD194A2768006ECE83 /* DetailViewController.h */,
+				715810FE194A2768006ECE83 /* DetailViewController.m */,
+				715810FF194A2768006ECE83 /* DetailViewController.xib */,
 				715810C91949FD71006ECE83 /* Images.xcassets */,
 				715810BE1949FD71006ECE83 /* Supporting Files */,
 			);
@@ -182,6 +184,22 @@
 				715810D91949FD71006ECE83 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		715A71FD19DDBDD400895248 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				715810E61949FD89006ECE83 /* DBStack.h */,
+				715810E71949FD89006ECE83 /* DBStack.m */,
+				715810EB1949FF1B006ECE83 /* CoreDataBank.xcdatamodeld */,
+				715810F1194A17E2006ECE83 /* ParentController.h */,
+				715810F2194A17E2006ECE83 /* ParentController.m */,
+				715A71F719DDB77D00895248 /* Parent.h */,
+				715A71F819DDB77D00895248 /* Parent.m */,
+				715A71FA19DDB77D00895248 /* Child.h */,
+				715A71FB19DDB77D00895248 /* Child.m */,
+			);
+			name = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -261,7 +279,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				715810C21949FD71006ECE83 /* InfoPlist.strings in Resources */,
-				71581101194A2768006ECE83 /* DBMemberAddViewController.xib in Resources */,
+				71581101194A2768006ECE83 /* DetailViewController.xib in Resources */,
 				715810CA1949FD71006ECE83 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -281,15 +299,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				715810F6194A2326006ECE83 /* DBMemberViewController.m in Sources */,
+				715810F6194A2326006ECE83 /* ListViewController.m in Sources */,
+				715A720019DDBEB100895248 /* ChildTableViewDataSource.m in Sources */,
 				715810ED1949FF1B006ECE83 /* CoreDataBank.xcdatamodeld in Sources */,
 				715810E81949FD89006ECE83 /* DBStack.m in Sources */,
-				71581100194A2768006ECE83 /* DBMemberAddViewController.m in Sources */,
+				71581100194A2768006ECE83 /* DetailViewController.m in Sources */,
 				715810C81949FD71006ECE83 /* DBAppDelegate.m in Sources */,
-				715810F9194A233E006ECE83 /* DBMemberTableViewDataSource.m in Sources */,
+				715A71FC19DDB77D00895248 /* Child.m in Sources */,
+				715810F9194A233E006ECE83 /* ParentTableViewDataSource.m in Sources */,
 				715810C41949FD71006ECE83 /* main.m in Sources */,
-				715810F0194A0205006ECE83 /* Member.m in Sources */,
-				715810F3194A17E2006ECE83 /* MemberController.m in Sources */,
+				715810F3194A17E2006ECE83 /* ParentController.m in Sources */,
+				715A71F919DDB77D00895248 /* Parent.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -486,6 +506,7 @@
 				715810E21949FD71006ECE83 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		715810E31949FD71006ECE83 /* Build configuration list for PBXNativeTarget "Core Data BankTests" */ = {
 			isa = XCConfigurationList;
@@ -494,6 +515,7 @@
 				715810E51949FD71006ECE83 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

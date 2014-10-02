@@ -16,6 +16,16 @@
 
 @implementation DBStack
 
++ (DBStack *)sharedInstance {
+    static DBStack *sharedInstance = nil;
+    static dispatch_once_t onceToken;
+    dispatch_once(&onceToken, ^{
+        sharedInstance = [[DBStack alloc] init];
+    });
+    return sharedInstance;
+
+}
+
 - (id)init {
     self = [super init];
     if (self) {
